@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:front_admin/main.dart';
 
 class DashboardScreen extends StatelessWidget {
   static const String id = 'dashboard-screen';
@@ -8,7 +9,10 @@ class DashboardScreen extends StatelessWidget {
     return Center(
       child: Text(
         'Dashboard Screen',
-        style: TextStyle(fontSize: 30, color: Colors.blue),
+        style: TextStyle(
+          fontSize: 30,
+          color: buildMaterialColor(Color(0xFFD2701D)),
+        ),
       ),
     );
   }

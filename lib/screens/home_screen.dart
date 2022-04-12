@@ -52,7 +52,7 @@ class HomeScreen extends StatelessWidget {
             Navigator.of(context).pushNamed(item.route!);
           }
         },
-        /* header: Container(
+        header: Container(
           height: 50,
           width: double.infinity,
           color: const Color(0xff444444),
@@ -77,7 +77,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
-        ), */
+        ),
       ),
       body: SingleChildScrollView(
         child: Container(
